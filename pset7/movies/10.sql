@@ -1,0 +1,1 @@
+select distinct(name) from people join directors on people.id = directors.person_id where movie_id in (select movie_id from ratings where rating >=9.0);
