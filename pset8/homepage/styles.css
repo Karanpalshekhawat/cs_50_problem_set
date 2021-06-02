@@ -1,0 +1,97 @@
+.topleft
+{
+    background-color: #ff9999;
+    width: 50%;
+    height: 250px;
+    float: left;
+    text-align: center;
+    border-style: groove;
+}
+
+.topright
+{
+    background-color: #99ffCC;
+    width: 50%;
+    height: 250px;
+    float: left;
+    text-align: center;
+    border-style: groove;
+}
+
+.bottomleft
+{
+    background-color: #CCCCff;
+    width: 50%;
+    height: 250px;
+    float: left;
+    text-align: center;
+    border-style:groove;
+}
+
+.bottomright
+{
+    background-color: #FFFFCC;
+    width: 50%;
+    height: 250px;
+    float: left;
+    text-align: center;
+    border-style: groove;
+}
+
+.textualbox
+{
+    text-align: center;
+    background-color: #99CCFF;
+    color: #000000;
+    border-style: outset;
+    padding: 20px;
+}
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #E0E0E0;
+  text-align: center;
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  padding-left: 80px;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
+
+.button_prop {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    width: 40%;
+    height: 45px;
+}
+
+.social-networks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-container {
+  grid-row-gap: 50px;
+}

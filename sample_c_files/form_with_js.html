@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Example of using Javascript</title>
+        <script>
+            function greet()
+            {
+                let query_entered = document.querySelector("#name").value;
+                alert("Hello " + query_entered);
+            }
+
+            function listen()
+            {
+                document.querySelector("form").addEventListener("submit", greet);
+            }
+
+            document.addEventListener("DOMContentLoaded", listen);
+        </script>
+    </head>
+    <body>
+        <p>Search example</p>
+        <form>
+            <input autocomplete="off" autofocus id="name" placeholder="What you doing?" type="text">
+            <input type="submit" value="search something">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head><title>RGB_values</title></head>
+    <body>
+        <p>Click any of the button</p>
+        <button id="red">Red</button>
+        <button id="green">Green</button>
+        <button id="Blue">Blue</button>
+        <script>
+            let body = document.querySelector("body");
+            document.querySelector("#red").onclick = function(){
+                body.style.backgroundColor = "red";
+            };
+
+            document.querySelector("#green").onclick = function(){
+                body.style.backgroundColor = "green";
+            };
+
+            document.querySelector("#Blue").onclick = function(){
+                body.style.backgroundColor = "blue";
+            };
+        </script>
+    </body>
+</html>
